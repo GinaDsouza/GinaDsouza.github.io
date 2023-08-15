@@ -1174,6 +1174,8 @@ input, select, textarea {
 			-webkit-filter: blur(0.2rem);
 			-ms-filter: blur(0.2rem);
 			filter: blur(0.2rem);
+			background-image: url("../../images/bg.jpg");
+			background-size: auto,
 		}
 
 		body.is-preload #bg:before {
