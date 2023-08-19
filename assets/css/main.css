@@ -1158,8 +1158,8 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			padding-bottom: 10%; /* 16:9 aspect ratio (9 / 16 * 100) */
-            background-image: url("../../images/yellow2.jpg"); /* for yellow2 10%. for dark 56.25%*/
+			padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
+            background-image: url("../../images/dark.jpg"); /* for yellow2 10%. for dark 56.25%*/
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
