@@ -77,8 +77,28 @@
 								<p>This was my first time making an Excel project on my own. Thanks to projects I've done before, I understood how to stay organized and what steps to follow. With this knowledge, I created a Space Missions Dashboard that brings together data in a neat and clear way.<br>
 									I learned from my earlier projects to clean up and sort data accurately. I also used pivot tables to make graphs that show which countries launched the most rockets and how much missions cost on average. I made it easy for you to pick things to look at by including filters like countries, years, status of the missions and the rocket. A fun part is that you can see which rockets are still doing their missions.<br>
 									I really had a lot of fun making this dashboard, and I hope you enjoy going through it too.</p>
-								<h3><a href="https://github.com/GinaDsouza/Excel/tree/main/SpaceMissionsProject" target="_blank"><span class="label">Using SQL to clean world happiness data</span></h3></a>
-								<p>stuff</p>
+								<h3><a href="https://github.com/GinaDsouza/Happiness_SQL_queries" target="_blank"><span class="label">Using SQL to clean and transform world happiness data</span></h3></a>
+								<p>I carried out the cleaning and organizing process of the data for my project, which involved merging information from five different tables.
+									To begin, I checked if these tables could work together by looking at their column details.
+									Then, I ensured that the data had the same number of rows for each year and got rid of any repeated entries.
+									To correct misspelled country names found in various tables, I used common table expressions (CTE).
+									Next, I combined data from the years 2015 to 2019 using inner joins, creating a temporary table.
+									After confirming that the merged data was accurate, I simplified the dataset by removing extra country information.
+									Finally, I saved the merged table as 'happinessmerged'.<br>
+									After saving the merged data as 'happinessmerged', I moved on to further cleanse the data.
+									Initially, I carefully reviewed the merged table to ensure its integrity.
+									I then eliminated duplicate entries, confirming data uniqueness.
+									Additionally, I narrowed the dataset to top and bottom 10 ranked countries.
+									Statistical methods and visualization tools helped address potential outliers, and missing values were carefully managed.
+									By standardizing variables and creating a new column indicating whether the country was in the top 10, bottom 10, or was 'India', I refined the dataset for visualization.<br>
+									The 'happinessmerged' table, while holding valuable data, presented challenges for effective visualizations due to its format.
+									Therefore, a transformation was necessary.
+									During the merging process, I had ensured that the individual tables were clean, consistent, and accurate.
+									I also had found which top 10 and bottom 10 countries to select for analysis.
+									As the next step, I structured the data for append operations.
+									By adding a 'year' column to each table and standardizing column names, I set the stage for appending.
+									Using the top and bottom 10 countries identified earlier, I refined the data to create the 'happinessappended' table.
+									After completing data wrangling, this transformed dataset is now ready to be utilized for meaningful insights through visualizations in Tableau.</p>
 								<h3><a href="https://github.com/GinaDsouza/Excel/tree/main/SpaceMissionsProject" target="_blank"><span class="label">Using Tableau to vizualize world happiness data </span></h3></a>
 								<p>stuff</p>
 								<h3><a href="https://github.com/GinaDsouza/Excel/tree/main/SpaceMissionsProject" target="_blank"><span class="label">Using R to clean and visualize Bike sharing customer data  </span></h3></a>
